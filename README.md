@@ -13,4 +13,6 @@ $ sudo nano /etc/privoxy/config
 
 ##### Copy and paste the config provided:
 $ sudo nano /etc/privoxy/user.action
-   
+
+##### Restart privoxy service
+$ sudo systemctl restart privoxy.service
