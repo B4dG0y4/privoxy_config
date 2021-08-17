@@ -4,10 +4,10 @@ Install Privoxy on the remote host:
 $ sudo apt -y install privoxy
 
 Replace the standard "config" and "user.action":
-  $ sudo mv /etc/privoxy/config /etc/privoxy/config.old
-  $ sudo mv /etc/privoxy/user.action /etc/privoxy/user.action.old
-  
-  $ sudo nano /etc/privoxy/config
+$ sudo mv /etc/privoxy/config /etc/privoxy/config.old
+$ sudo mv /etc/privoxy/user.action /etc/privoxy/user.action.old
+
+$ sudo nano /etc/privoxy/config
   Copy and paste the config provided: 
-  $ sudo nano /etc/privoxy/user.action
+$ sudo nano /etc/privoxy/user.action
   Copy and paste the config provided: 
